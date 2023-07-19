@@ -14,5 +14,5 @@ Each day, you'll have a task to complete. This will range from reading and learn
 
 ## Day-wise Breakdown
 
-- [] Day 1: Set up your Go and Kafka environment
-- [] Day 2: Write a Go program that creates a Kafka Producer and sends a simple message to a Kafka Topic
+- [x] Day 1: Set up your Go and Kafka environment
+- [x] Day 2: Write a Go program that creates a Kafka Producer and sends a simple message to a Kafka Topic
