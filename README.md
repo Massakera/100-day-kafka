@@ -1,6 +1,6 @@
 # 100 Days of Apache Kafka with Go
 
-Welcome to the 100 Days of Apache Kafka with Go challenge! This repository is designed to help you get hands-on experience with Apache Kafka using the Go programming language. Over the course of 100 days, you'll progress from the basics of Apache Kafka and Go, to building complex producers and consumers, to creating real-world projects.
+Welcome to the 100 Days of Apache Kafka with Go challenge! This repository is designed to help you get hands-on experience with Apache Kafka using the Go programming language, but honestly you can use any lang you want. Over the course of 100 days, you'll progress from the basics of Apache Kafka and Go, from building simple producers and consumers, to creating real-world projects.
 
 ## Structure
 
