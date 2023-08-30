@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	p, err := kafka.NewProducer(&kafka.ConfigMap{"bootstrap.servers": "192.168.99.100"})
+	p, err := kafka.NewProducer(&kafka.ConfigMap{"bootstrap.servers": "localhost:29092"})
 	if err != nil {
 		panic(err)
 	}

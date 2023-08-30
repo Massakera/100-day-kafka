@@ -8,7 +8,7 @@ import (
 
 func main() {
 	c, err := kafka.NewConsumer(&kafka.ConfigMap{
-		"bootstrap.servers": "localhost:9092",
+		"bootstrap.servers": "localhost:29092",
 		"group.id":          "myGroup",
 		"auto.offset.reset": "earliest",
 	})
@@ -17,7 +17,7 @@ func main() {
 		panic(err)
 	}
 
-	c.SubscribeTopics([]string{"my-topic"}, nil)
+	c.SubscribeTopics([]string{"myTopic"}, nil)
 
 	for {
 		msg, err := c.ReadMessage(-1)
