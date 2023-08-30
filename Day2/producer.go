@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"gopkg.in/confluentinc/confluent-kafka-go.v1/kafka"
+	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
 )
 
 func main() {
-	p, err := kafka.NewProducer(&kafka.ConfigMap{"bootstrap.servers": "localhost"})
+	p, err := kafka.NewProducer(&kafka.ConfigMap{"bootstrap.servers": "192.168.99.100"})
 	if err != nil {
 		panic(err)
 	}
